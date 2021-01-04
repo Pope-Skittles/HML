@@ -1,0 +1,635 @@
+#myNavbar{
+  background:whitesmoke;
+  font-family: 'Schoolbell';
+  color:black;
+  font-size:25px;
+
+}
+#myNavbar .active>a,
+#myNavbar li:hover >a:hover{
+  color:cadetblue;
+}
+#myNavbar li:active >a:active{
+  color:blue;
+}
+
+.container-fluid {
+  background:whitesmoke;
+  
+  font-size:25px;
+  color:black;
+
+}
+.container-fluid .navbar-brand{
+  font-family: 'Schoolbell';
+  font-size:25px;
+}
+#time{
+  font-size:25px;color:tomato;
+}
+
+
+
+
+   .header {
+    padding: 60px;
+    background: url('images/99815.png');
+    color: black;
+    text-transform: bold;
+     font-size:100px;
+   font-size: 100px;
+    height:625px;
+    padding-top:100px;
+    text-transform:bold;
+  }  
+  
+  .hed h1{
+    text-align:center;
+    color:black;
+    font-family: 'Schoolbell';font-size: 100px;
+    
+    padding-top:150px;
+    word-spacing:10px;
+  }
+  hr {
+    max-width: 6.25rem;
+    color:black;
+  }
+ 
+  #section1 {color: BLACK;width:auto;height:350px;padding-top:50px;
+    background:#1E88E5;
+    font-family: 'Sue Ellen Francisco';}
+  #section1 h1{
+    font-size: 60px;
+   
+    text-align:center;
+    padding-top:5px;;
+  }
+  #section1 p{ 
+    font-size: 40px;
+    text-align:center;
+    text-transform: bold;
+    color:black;
+    text-decoration:none;
+  }
+ 
+  
+ 
+  
+ 
+  /*section 2*/
+  #section2 {padding-top:20px;
+    color: BLACK; background-color: #673ab7;
+    height:800px;
+}
+#section2 h1{
+    text-align:center;
+    font-family:'Sue Ellen Francisco';
+    font-size:60px;
+}
+#section2 b,#section2 h1{
+    font-size:50px; 
+
+
+}
+#section2 b{
+  font-family: 'Schoolbell';
+}.container {
+  position: relative;
+  width: 350px;
+float:left;
+margin-left:40px;
+}
+#section2 p{
+    color:black;
+    margin-left:440px;
+    margin-bottom:700px;
+    font-size:30px;
+    text-align:justify;
+}
+
+.image {
+  border:2px solid rgb(1, 11, 20);
+  border-radius:2px;
+  width: 350px;
+  height: 350px;
+  filter:brightness(120%);
+}
+.overlay i{
+  
+    margin-top:250px;
+   
+
+}
+.overlay .i a{
+    color:black;
+    padding-left:60px;
+    font-size:30px;
+    
+}
+
+
+.overlay {
+  border:2px solid rgb(1, 11, 20);
+  border-radius:2px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color:  #1abc9c;
+  overflow: hidden;
+  width: 350px;
+  height: 0;
+  margin-left:15px;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  color: black;
+  font-size: 40px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  #section2 {
+    height:650px;
+  }
+  #section2 p{ 
+    display:block;  
+     margin-left:1px;
+padding-top:100px;
+font-size:30px;
+text-align:center;
+}
+    .image {
+        height:200px;
+        width:200px;
+    }
+    .overlay {
+        width:200px;
+        padding-left:2px;
+    }
+    .container {
+        width:200px;
+        margin-left:2px;
+    }
+    .overlay i{
+    margin-top:157px;
+   
+
+}
+.overlay .i a{
+    color:black;
+    padding-left:20px;
+    font-size:30px;
+    
+}
+
+ 
+.text {
+    text-align:center;
+}
+
+}
+
+
+ 
+
+  /*section 3*/
+  #section3 {
+    color: BLACK;height:650px; 
+    background-color: #ff9800;}
+  #section3 h1{
+    text-align:center;
+    
+    font-size:40px;
+  }
+  #section3 p{
+    padding-right:50px;
+    margin-left:50px; 
+  font-size:30px; 
+}
+  .card {
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-color:black;
+    border-radius:15px;
+    padding: 16px;
+    height:400px;
+    text-align: center;
+    background-color: #1abc9c;
+    color: black;
+  }
+  #section31 {
+    color: BLACK;height:700px; 
+    padding-top:50px;
+    background-color: teal;}
+    #section31 h1{
+      text-align:center;
+    }
+ 
+    #section31 .containerr {
+    width: 100%;
+    background-color: #ddd;
+  }
+  
+  
+  #section31 .skills p{
+    text-align: right;
+    padding-top: 2px;
+    padding-bottom: 10px;
+    color: black;
+  }
+  
+  
+ .html {width: 90%;
+    background-color:  #1abc9c; 
+    height:30px;}
+    .css {width: 89%; 
+    background-color:  #1abc9c;
+    height:30px;}
+.js {width: 65%; 
+    background-color:  #1abc9c;
+    height:30px;}
+.php {width: 60%; 
+    background-color:  #1abc9c;
+  height:30px;}
+
+  
+
+
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 25%;
+    height:30%;
+    padding: 0 5px;
+    margin-left:70px;
+  }
+  
+  .row {margin: 0 -5px;
+  font-size:80px;;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* Responsive columns */
+  
+  /*section 41*/
+  #section41{
+    padding-top:50px;
+    background:tomato;;
+    height:auto;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  #section41 body {
+    padding: 20px;
+    font-family: Arial;
+  }
+  #section41 h1{text-align:center;
+    
+  }
+  #section41 p{
+    text-align:center;
+  }
+  
+.row2 {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row2,
+.row2> .column2 {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column2 {
+  float: left;
+  margin-left:60px;
+  padding-left:20px;
+ 
+  width: 25%;
+}
+.im {
+  width:300px;
+}
+.column2 h3{
+  text-align:center;
+}
+
+.column2 p{
+  text-align:justify;
+  }
+    .content2 b{
+  text-align:center;
+}
+.coolumn2 hr{
+  color:red;
+}
+.content2 a{
+  color:black;
+  text-decoration:underline;
+  text-align:center;
+}
+.content2 a:hover{
+  color:teal;
+}
+
+/* Clear floats after rows */ 
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content2 {
+  border-color:black;
+  border-radius:15px;
+  background-color: #1abc9c;
+  padding: 10px;
+}
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column2 {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column2 {
+    margin-left:0px;
+  }
+  .column2 {
+    display:block;
+    width: 100%;
+  }
+  .im {
+    width:220px;
+  }
+  #section41{
+    height:1800px;
+  }
+  
+}
+@media (prefers-color-scheme: dark) {
+  .content2 {
+  border-color:white;;
+  background-color:rgb(1, 11, 20);
+  color:white;
+}
+.content2 a{color:white; 
+text-decoration:underline;}
+
+  
+.containerr {
+  width: 100%;
+  background-color: #ddd;
+}
+
+
+.skills p{
+  text-align: right;
+  padding-top: 2px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+
+.html {width: 90%;
+  background-color: #008CBA; 
+  height:30px;}
+.css {width: 89%; 
+  background-color:  #008CBA;
+  height:30px;}
+.js {width: 65%; 
+  background-color:  #008CBA;
+  height:30px;}
+.php {width: 60%; 
+  background-color:#008CBA;
+height:30px;}
+
+  
+}
+
+  /*section 4 */
+  #section42 {padding-top:50px;
+    height:500px;color: black; 
+    background-color: #009688;
+} 
+  
+  #section42{
+    padding-top:80px;
+}
+#section42 h1{
+  text-align:center;
+}
+#section42 p{
+  font-size:25px;
+    padding-top:50px;
+    text-align:center;
+}
+#section42 i{
+  padding-left:145px;
+  padding-top:70px;
+  font-size:50px;word-spacing:30px
+}
+#section42 a{
+  color:black;
+  text-decoration:none;
+}
+#section42 a:hover{
+  color:red;
+}
+
+@media screen and (max-width: 600px) {
+  #section42{
+    height:1000px;
+  }
+
+
+  .fade {
+    opacity: 1;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+
+  
+  .gall h3{
+    text-align:center;
+    font-size:60px;
+  }
+  
+  .row1 {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column */
+  .row1,
+  .row1 > .column1 {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column1 {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after rows */ 
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content1 {
+    
+    padding: 10px;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .column1 {
+      width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column1 {
+      width: 100%;
+    }
+  }
+  
+
+
+
+@media screen and (max-width: 600px) {
+  #section42 i{
+    padding-left:0;
+  padding-top:0;
+    text-align:center;
+    display:inline-block
+    ;
+  }
+  body,html{
+    font-size:25px;
+  }
+
+ 
+
+}
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 10px;
+      margin-left:9px;
+      
+    }
+  
+  
+  /* Style the counter cards */
+  .card {
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    background-color: #1abc9c;
+    color: black;
+    width:80%;
+    margin-left:5px;    
+  }
+  #section3 {
+    height:auto;
+  }
+  
+  
+  .fa {font-size:50px;}
+  #section42 {
+    height:auto;
+  }
+  #section42 a{
+    display:inline;
+}
+#section42 i{
+  margin-top:50px;
+  padding-left:30px;
+  word-spacing:10px;
+  font-size:40px;
+  display:inline;
+  
+
+  }
+}
+@media screen and (max-width: 600px) {
+  .header {
+    height:auto ;
+  }
+  .hed h1{font-size: 40px;
+  text-align:auto;}
+  }
+  #section1 {
+    height:auto;
+  }
+  
+  
+  .gall h3{
+    text-align:center;
+    font-size:30px;
+  }
+  .gall h1{
+    font-size:30px;
+  }
+  @media screen and (max-width: 600px) {
+    #section2{
+      height:2000px;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .image{
+      width:200px;
+      height:200px;
+      float:none;
+    } 
+    
+  }
+}
+
+
+
+
+  
+  

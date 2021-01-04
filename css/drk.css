@@ -1,0 +1,254 @@
+
+
+  
+
+  .header {height: 655px;
+
+  }
+
+    #myNavbar{
+
+        background:black;
+
+      }
+
+      .container-fluid{
+
+        background:black;
+
+      }
+
+      #myNavbar .active>a,
+
+#myNavbar li:hover >a:hover{
+
+  color:gold;}
+
+    .header {
+
+      background: black;
+
+      color: white;
+
+    }
+
+    .button {
+
+      background:black;
+
+      color: black;
+
+      border-color:transparent;
+
+    }
+
+    .glyphicon{
+
+      color:gold;
+
+    }
+
+    .button  i:hover{
+
+      background:black;
+
+    }
+
+    .button a:hover{
+      background:black;
+    }
+
+    .button:hover{
+      background-color: black;
+
+      color:gold;
+
+    }
+
+    hr {
+
+      max-width: 6.25rem;
+
+      color:red;;   }
+
+    
+
+    .hed {
+
+      color:whitesmoke;
+
+    }
+
+    .hed h1{
+
+      color:gold;
+
+    }
+
+    /*section 2 dark*/
+
+    #section1 {color: whitesmoke;
+
+      background: rgb(1, 11, 20);}
+
+      #section1 p{ 
+
+        COLOR:WHITE;
+
+      }
+
+    /*section 2 dark*/
+
+    #section2{color:white;
+
+      background-color:rgb(1, 11, 20);
+
+    }
+
+    #section2 p{color:white;
+
+    }.image{
+
+      border:2px solid black;
+
+  border-radius:2px;
+
+  border-bottom:black;
+
+    }
+
+    .i a{
+
+      color:white;
+
+    }
+
+    .overlay {
+
+      border:2px solid white;
+
+  border-radius:2px;
+
+      background-color:rgb(1, 11, 20); ;
+
+    }
+
+    .text {
+
+      color: white;
+
+    }
+
+    .overlay .i a{color:white;
+
+    
+
+  }
+
+    /*section 3 DARK*/
+
+    #section3 {color:white;
+
+      background: black;
+
+    }
+
+    .card {
+
+      background-color:rgb(1, 11, 20);
+
+      color:white ;
+
+      filter:brightness(170%);
+
+    }
+
+
+
+
+
+
+
+    /*section 4 dark*/
+
+    #section41 {background: black;}
+
+    #section41 h1{
+
+      color:white;
+
+    }
+
+    /**/
+
+    #section42 {color: white; 
+
+      background-color: rgb(1, 23, 43);
+
+
+
+  } 
+
+  #section42 a{
+
+    color:white;
+
+  }
+
+  #section42 a:hover{
+
+    color:gold;
+
+  }
+
+  #section31 {background:black;
+
+    color:white;
+
+  }
+
+  #section31 .skills p{
+
+    color:white;
+
+  }
+
+  #section31 .containerr {
+
+    background-color: rgb(117, 115, 115);
+
+  }
+
+  .html {width: 90%;
+
+    background-color:  rgb(1, 23, 43); 
+
+    height:30px;}
+
+    .css {width: 89%; 
+
+    background-color:  rgb(1, 23, 43);
+
+    height:30px;}
+
+.js {width: 65%; 
+
+    background-color:  rgb(1, 23, 43);
+
+    height:30px;}
+
+.php {width: 60%; 
+
+    background-color:  rgb(1, 23, 43);
+
+  height:30px;}
+
+  .content2 a{
+
+
+
+    text-decoration: none;;
+
+  }
+
+

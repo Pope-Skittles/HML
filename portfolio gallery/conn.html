@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image:url(31189.jpg);
+}
+
+
+* {
+  box-sizing: border-box;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #e9e9e9;
+  }
+   
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color:teal;
+    color: black;
+  }
+  
+  /* Style the "active" element to highlight the current page */
+  .topnav a.active {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  /* Style the search box inside the navigation bar */
+  .topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+  
+  /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+  @media screen and (max-width: 600px) {
+    #typedtext{
+      font-size:20px;
+      position:relative;
+     
+  
+    }
+  
+    .p{
+      font-size:15px;
+      text-align:center;
+    }
+    
+    .topnav a, .topnav input[type=text] {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;
+    }
+    .topnav a{
+      font-size:10px;
+    }
+    
+  }
+
+
+
+/* Add styles to the form container */
+.container {
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  max-width: 300px;
+  padding: 16px;
+  background-color: white;
+  height:550px;
+
+}
+input[type=text1] {
+    height:180px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=text1] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+i{
+    color:black;
+    
+}
+i,a{
+    text-decoration:none;
+    font-size:30px;
+    padding-left:12px;
+
+}
+@media (prefers-color-scheme: dark) {
+    body{
+      background-color:black;
+      background-image: url(1511703.jpg);
+        font: 100% system-ui;
+        color:white;
+    
+      }
+      *.topnav a {
+        background-color: black;
+        font-size:17px;
+        color:white;
+      }
+      *.topnav  {
+        background-color: black;
+        font-size:17px;
+        color:white;
+      }
+      
+      *.topnav a:hover {
+        background-color:teal;
+      
+      }
+       *.topnav a:active {
+        background-color:#2196F3;
+      }
+      .container {
+          background:black;
+          color:white;
+      }
+      i{
+    color:white;;
+      }
+      h1{
+          color:white;
+      }
+  
+      
+}
+
+</style>
+</head>
+<body>
+    <div class="topnav" >
+        <a href="w3changing.html" class="active"> Home</a> 
+        <a href="C:\Users\ETCHIE MOYOWA\Desktop\html final project\aboutttt.html">About Me</a>
+        <a href="conn.html"> Contact</a> 
+        
+      
+      </div>
+    
+
+  <form action="/action_page.php" class="container">
+    <h1>Contact me</h1>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Subject</b></label>
+    <input type="text1"  name="psw" required>
+
+    <button type="submit" class="btn">Send</button>
+    <br>
+    <br>
+    <b><a href="tel:+2348087482198"><i class="fa fa-phone" aria-hidden="true"></i>
+    <a href="https://www.linkedin.com/in/moyowa-etchie-665b51189"><i class="fa fa-linkedin"></i>
+        <a href="https://twitter.com/Etchie____"><i class="fa fa-twitter"></i>
+        <a href="https://www.instagram.com/_moyowa_/?hl=en"><i class="fa fa-instagram"></i>
+  </form>
+</div>
+
+
+
+</body>
+</html>

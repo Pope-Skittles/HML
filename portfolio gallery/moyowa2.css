@@ -1,0 +1,142 @@
+body{
+    background:white;
+    color:black;
+}
+.header{
+  text-align:center;
+}
+.sidenav {
+height: 100%;
+width: 0;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: whitesmoke;
+overflow-x: hidden;
+transition: 0.5s;
+padding-top: 60px;
+}
+
+.sidenav a {
+padding: 8px 8px 8px 32px;
+text-decoration: none;
+font-size: 25px;
+color: #818181;
+display: block;
+transition: 0.3s;
+}
+
+.sidenav a:hover {
+color: #f1f1f1;
+
+}
+
+.sidenav .closebtn {
+position: absolute;
+top: 0;
+right: 25px;
+font-size: 36px;
+margin-left: 50px;
+}
+
+#main {
+transition: margin-left .5s;
+padding: 16px;
+}
+.form label{
+color:black
+}
+a,link{
+    text-decoration:none;
+    color:black;
+}
+
+.form input[type=text1]{
+background-color:white;
+width: 100%;
+padding:5px;
+margin-top: 6px;
+margin-bottom: 16px;
+resize:vertical;
+border: 1px solid #ccc;
+}
+.form input[type=text2]{
+width: 100%;
+background-color:white;
+padding:5px;
+margin-top: 6px;
+margin-bottom: 16px;
+resize:vertical;
+border: 1px solid #ccc;
+}
+.form input[type=text3]{
+width: 100%;
+background-color:white;    
+padding:5px;
+margin-top: 6px;
+margin-bottom: 16px;
+resize:vertical;
+border: 1px solid #ccc;
+}
+.form input[type=submit]{
+    background:teal;
+    height:auto;
+    font-size:20px ;
+    text-transform:uppercase;
+    text-transform:bold;
+    border:2px solid black;
+    
+    width:20%;
+}
+.form input[type=submit]:hover{
+    background:darkslategrey;
+}
+select, textarea {
+width: 100%;
+padding: 10px;
+border: 1px solid #ccc;
+margin-top: 6px;
+margin-bottom: 16px;
+resize: vertical;
+}
+.pics{
+display:block;
+font-size:30PX;
+} 
+.social{
+display:inline;
+}
+.mail{
+    font-size:30px;
+} 
+
+
+
+@media screen and (max-height: 450px) {
+    .mail,.pics{
+        font-size:15px;
+    }
+.sidenav {padding-top: 15px;}
+.sidenav a {font-size: 18px;}
+}
+@media (prefers-color-scheme: dark) {
+    body{
+    background:black;
+    color:white;
+    }  .sidenav {
+        background-color: #111;}
+        .form label{
+            color:white;
+        }
+        .form input[type=text1],
+        .form input[type=text2],
+        .form input[type=text3],
+        select, textarea {
+            background-color:grey;
+        }
+        a,link{
+            color:white;
+        }
+        
+}

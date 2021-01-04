@@ -1,0 +1,68 @@
+@media (prefers-color-scheme: dark) {
+    
+      body{
+      background-color:black;
+      background-image: url(1511703.jpg);
+        font: 100% system-ui;
+        color:white;
+      }
+      
+      
+    
+    *.header{
+       
+        height:75%;
+          color: white;
+      
+      }
+       *.header h1 {
+        font-size: 40px;
+        color:white;
+      }
+      *.topnav a {
+        background-color: black;
+        font-size:17px;
+        color:white;
+      }
+      *.topnav  {
+        background-color: black;
+        font-size:17px;
+        color:white;
+      }
+      
+      *.topnav a:hover {
+        background-color:teal;
+      
+      }
+       *.topnav a:active {
+        background-color:#2196F3;
+      }
+       *.topnav input[type=text] {
+        background-color:black;
+        font-size:17px;
+        color:white;
+        border-color:white;
+      }
+      *.open-button {
+        background-color: #555;
+        color:white;
+      }
+       *.form-container {
+        background-color:black;
+        color:white;
+        border:1px solid white;
+      }
+      *.form-container .btn {
+        background-color:teal;
+    }
+    *.form-container .cancel {
+        background-color:red;
+    }
+    *.right,P {
+        font:30px;color:white;
+      right: 0;
+      background-color: black;
+    }
+   
+     
+    }

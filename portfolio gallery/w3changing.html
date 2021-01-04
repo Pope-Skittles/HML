@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="moyowa3.css">
+<link rel="stylesheet" href="dark1.css">
+
+<style>
+  
+</style>
+
+
+
+
+<link rel="stylesheet" href="typewrite.css">
+
+<script src="MOYOWA.js">
+  
+</script>
+
+
+
+<body>
+
+<!-- Navigation -->
+<div class="topnav">
+  <a href="w3changing.html" class="active"> Home</a> 
+  <a href="C:\Users\ETCHIE MOYOWA\Desktop\html final project\aboutttt.html">About Me</a>
+  <a href="conn.html"> Contact</a> 
+  <input type="text" placeholder="Search.."></a>
+
+</div>
+
+ 
+    
+  </a>
+</div>
+
+<div style="padding-left:10px">
+  
+</div>
+<div class="header">
+  <div id="typedtext"></div>
+
+</div>
+
+</div>
+
+<!-- Slide Show -->
+
+
+<body onload="startTime()"></body>
+
+
+
+<div class="p">
+<p>2020 All rights reserved(c)</p>
+</div>
+  
+
+<script>
+function checkTime(i) {
+  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+  return i;
+}
+// set up text to print, each item in array is new line
+var aText = new Array(
+"HELLO, my name is Moyowa", 
+"I'm a Frontend Web Developer",
+);
+var iSpeed = 100; // time delay of print out
+var iIndex = 0; // start printing array at this posision
+var iArrLength = aText[0].length; // the length of the text array
+var iScrollAt = 20; // start scrolling up at this many lines
+ 
+var iTextPos = 0; // initialise text position
+var sContents = ''; // initialise contents variable
+var iRow; // initialise current row
+ 
+function typewriter()
+{
+ sContents =  ' ';
+ iRow = Math.max(0, iIndex-iScrollAt);
+ var destination = document.getElementById("typedtext");
+ 
+ while ( iRow < iIndex ) {
+  sContents += aText[iRow++] + '<br />';
+ }
+ destination.innerHTML = sContents + aText[iIndex].substring(0, iTextPos) + "_";
+ if ( iTextPos++ == iArrLength ) {
+  iTextPos = 0;
+  iIndex++;
+  if ( iIndex != aText.length ) {
+   iArrLength = aText[iIndex].length;
+   setTimeout("typewriter()", 500);
+  }
+ } else {
+  setTimeout("typewriter()", iSpeed);
+ }
+}
+
+
+typewriter();
+</script>
+
+
+</body>
+</html>

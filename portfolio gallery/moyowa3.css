@@ -1,0 +1,169 @@
+body{
+  background-image: url(31189.jpg);
+  
+
+}
+
+p{
+  padding-left:550px;
+  padding-top:5px;
+  font-size:20px;
+  background-color:#1abc9c;
+  background: #1abc9c;
+
+}
+a {
+  color: #0033cc;
+}
+
+
+
+/* Header/logo Title */
+.header {
+    padding: 100px;
+    text-align: center;
+    
+    color: black;
+    font-family:cursive;
+    height:75%;
+  }
+  .centered {
+    position: absolute;
+    font-size:50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #time{
+    font-size:20px;
+    padding-left:999px;
+    padding-top:20px;
+  }
+  #typedtext{
+    font-size:50px;
+    position:center;
+   
+
+  }
+  
+  
+  
+  /* Increase the font size of the heading */
+   .header h1 {
+    font-size: 80px;
+    color:black;
+    background-size:cover
+  }
+  body {font-family: Arial, Helvetica, sans-serif;}
+  .content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: #e9e9e9;
+  }
+   
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color:teal;
+    color: black;
+  }
+  
+  /* Style the "active" element to highlight the current page */
+  .topnav a.active {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  /* Style the search box inside the navigation bar */
+  .topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+  
+  /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+  @media screen and (max-width: 600px) {
+    #typedtext{
+      font-size:20px;
+      position:relative;
+     
+  
+    }
+    p{
+      padding-left:64px;
+      padding-top:300px;
+      font-size:10px;color:#1abc9c;
+      background-color:#1abc9c;
+      background: #1abc9c;
+    }
+    
+    .topnav a, .topnav input[type=text] {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;
+    }
+    .topnav a{
+      font-size:10px;
+    }
+    
+  }
+  .header {
+    padding: 65px;
+  }
+
+  body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  img {
+    /* The image used */
+    size:cover;
+    width:100%;
+
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  
+  
+  

@@ -1,0 +1,58 @@
+@media (prefers-color-scheme: dark) {
+  body{
+  background:black;
+  color:white;
+  }
+  .header {
+    padding: 80px;
+    background: url('images/203545.jpg');
+    color: black;
+    font-size:50px;
+    height:650px;
+  }
+  .hedd{
+    color:white;
+  }
+  .header button {
+    background-color:darkslateblue;}
+    .header button a{
+      color:white;
+    }
+ 
+    .sidenav {
+      background:black;
+    }
+    .header {
+      color:white;
+    }
+   
+    #section5{
+      background:black;
+    }
+    #section1{
+      background:black;
+      height: 400px;
+      margin:0;
+      padding-bottom:40px;
+    }
+    .card {
+      color: white;
+      background-color: darkslategray;
+    }
+
+    #section1 p{ 
+      text-align:center;
+      font-size:25px;
+      color:white;
+      text-decoration:none;
+    }
+    #section3 p{
+      color:white;
+    }
+    .i a{
+      color:white;
+    }
+    .i a:hover{
+      color:grey;
+    }
+  }
